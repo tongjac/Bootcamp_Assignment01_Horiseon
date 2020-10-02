@@ -1,3 +1,5 @@
+/* Lucah Endicott, Kathleen Welch, Alfredo peer reviewed and assisted */
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -16,9 +18,15 @@ header {
   color: #ffffff;
 }
 
+header ul {
+  padding: 20px;
+  display: inline-block;
+  float: right;
+}
+
 header ul li {
   display: inline-block;
-  margin-left: 25px;
+  margin-right: 25px;
 }
 
 h1 {
@@ -27,8 +35,7 @@ h1 {
 }
 
 .seo {
-  color: purple;
-  /* color: #d9dcd6; */
+  color: #d9dcd6;
 }
 
 a {
@@ -90,18 +97,8 @@ p {
   text-align: center;
 }
 
-.benefit-lead img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-brand img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
+.benefit-lead img,
+.benefit-brand img,
 .benefit-cost img {
   display: block;
   margin: 10px auto;
