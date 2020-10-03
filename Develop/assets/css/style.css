@@ -10,6 +10,7 @@ body {
   background-color: #d9dcd6;
 }
 
+/* Changed .header classes to simply header elements */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -18,26 +19,31 @@ header {
   color: #ffffff;
 }
 
+/* HORISEON title/logo rendered at 48pt font */
+h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+/* Ensures unordered lists in Headers stay to the right as a navigation. Opted to nest it within Header since it shared in-line space with the HORISEON logo. */
 header ul {
   padding: 20px;
   display: inline-block;
   float: right;
 }
-
+/* The three 'navigation' links that automatically scroll down to the sections inside the content. */
 header ul li {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
   display: inline-block;
   margin-right: 25px;
-}
-
-h1 {
-  display: inline-block;
-  font-size: 48px;
 }
 
 .seo {
   color: #d9dcd6;
 }
 
+/* Anchor links show in white with no decoration/underline/other styling. */
 a {
   color: #ffffff;
   text-decoration: none;
@@ -47,7 +53,8 @@ p {
   font-size: 16px;
 }
 
-#hero {
+/* Changed 'hero' to 'banner' and called it an ID rather than a class */
+#banner {
   height: 800px;
   width: 100%;
   margin-bottom: 25px;
@@ -83,6 +90,7 @@ p {
   background-color: #2589bd;
 }
 
+/* Condensed the three classes to one declaration */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -128,6 +136,7 @@ p {
   font-size: 36px;
 }
 
+/* Footer remained in live site due to containing copyright credit rather than removing it as per the original assignment. */
 footer {
   padding: 30px;
   clear: both;
