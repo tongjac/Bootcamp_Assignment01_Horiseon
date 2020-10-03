@@ -1,15 +1,11 @@
-/* Lucah Endicott, Kathleen Welch, Alfredo peer reviewed and assisted */
-
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-
 body {
   background-color: #d9dcd6;
 }
-
 /* Changed .header classes to simply header elements */
 header {
   padding: 20px;
@@ -18,13 +14,14 @@ header {
   background-color: #2a607c;
   color: #ffffff;
 }
-
 /* HORISEON title/logo rendered at 48pt font */
 h1 {
   display: inline-block;
   font-size: 48px;
 }
-
+.seo {
+  color: #d9dcd6;
+}
 /* Ensures unordered lists in Headers stay to the right as a navigation. Opted to nest it within Header since it shared in-line space with the HORISEON logo. */
 header ul {
   padding: 20px;
@@ -37,10 +34,6 @@ header ul li {
   font-size: 20px;
   display: inline-block;
   margin-right: 25px;
-}
-
-.seo {
-  color: #d9dcd6;
 }
 
 /* Anchor links show in white with no decoration/underline/other styling. */
