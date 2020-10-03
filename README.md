@@ -23,7 +23,7 @@ Visual integrity to the original mock-up has been maintained throughout this pro
 ## Screenshot / Proof of Concept
 [Deployed Github Page Link](https://tongjac.github.io/Bootcamp_Assignment01_Horiseon/)
 
-[Live Preview Screenshot](https://raw.githubusercontent.com/tongjac/Bootcamp_Assignment01_Horiseon/main/demo/Horiseon_Live_Preview_JTong.png)
+![image](https://raw.githubusercontent.com/tongjac/Bootcamp_Assignment01_Horiseon/main/demo/Horiseon_Live_Preview_JTong.png)
 
 ## Acknowledgements
 Thank you to Lucah Endicott, Kathleen Welch, and Alfredo(bracamon) who have helpfully peer-reviewed this project.
